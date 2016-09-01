@@ -1,5 +1,5 @@
 #navbar {
-    background-color: chocolate;
+    background-color: darkturquoise;
     text-align: center;
  }
 
@@ -7,7 +7,7 @@
     display: inline-block;
     padding: 10px;
     font-size: 20px;
-    border: 2px solid yellow;
-    background-color: orange;
+    border: 2px solid gray;
+    background-color: gold;
     font-family: monospace
 }
