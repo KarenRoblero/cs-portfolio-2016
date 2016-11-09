@@ -24,6 +24,12 @@ function solve() {
     else if (operator.value === "*"){
         answer.innerHTML = Number(num1) * Number(num2);
     }
+    else if (operator.value === "%"){
+        answer.innerHTML = Number(num1) % Number(num2);
+    }
+    else if (operator.value === ">"){
+        answer.innerHTML = Number(num1) > Number (num2);
+    }
 }
 
 //
