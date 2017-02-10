@@ -8,4 +8,9 @@ inputButton.addEventListener ("click", function (program) {
     var task = "<p>" + num1input.value + "<p>" + "<br>";
     output.innerHTML = output.innerHTML + task; 
 
-});
+}); 
+all.addeventListener("click", function (evt) {
+    var targettext=evt.target;
+    targettext.style.textDecoration = "line-through";
+}); 
+
